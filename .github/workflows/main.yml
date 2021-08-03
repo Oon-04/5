@@ -23,6 +23,11 @@ jobs:
           - |
           - |
           - |
+        node:
+          - |
+          - |
+          - |
+          - |
     steps:
     - uses: actions/checkout@v1
-    - run: sleep 3m
+    - run: sleep 5
