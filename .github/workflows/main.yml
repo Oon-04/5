@@ -1,0 +1,33 @@
+name: enterprise
+on:
+  push:
+  pull_request:
+jobs:
+  terraform:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python:
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+        ruby:
+          - |
+          - |
+          - |
+          - |
+        node:
+          - |
+          - |
+          - |
+          - |
+    steps:
+    - uses: actions/checkout@v1
+    - run: sleep 5
