@@ -1,0 +1,28 @@
+name: GASPOL_V3
+on:
+  push:
+  pull_request:
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python:
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+          - |
+        ruby:
+          - |
+          - |
+          - |
+          - |
+    steps:
+    - uses: actions/checkout@v1
+   
