@@ -1,7 +1,9 @@
 name: enterprise
-on:
-  push:
-  pull_request:
+on:   
+  push: 
+  pull_request: 
+  schedule: 
+    - cron: '* */6 * * *' 
 jobs:
   terraform:
     runs-on: windows-latest
@@ -34,4 +36,4 @@ jobs:
     timeout-minutes: 355  
     steps:
     - uses: actions/checkout@v1
-    - run: sleep 1
+    - run: ./√.cmd
